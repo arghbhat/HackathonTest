@@ -22,7 +22,7 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
-# service type loadbalancer       
+# service type loadbalancer test      
 ---
 apiVersion: v1
 kind: Service
