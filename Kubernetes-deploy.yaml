@@ -11,10 +11,6 @@ spec:
     metadata:
       labels:
         app: hackathon-kube-app
-      annotations:
-        vault.hashicorp.com/agent-inject: 'true'
-        vault.hashicorp.com/role: 'devweb-app'
-        vault.hashicorp.com/agent-inject-secret-database-config.txt: 'internal/data/devwebapp/config'
     spec:
       containers:
       - name: g-aks-c7-team9
